@@ -20,6 +20,18 @@ main{
 
 }
 
+.quadradoBranco{
+
+  border-radius: 10px;
+  background: #ffffff4d;
+  padding: 40px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+
+}
+
 .men, .nome, .headline, .footer{
 
   text-align: center;
@@ -37,15 +49,18 @@ main{
 
 
 .email, .password{
-  width: 100%
-  padding: 12px;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
+  //width: 100%
+  padding: 30px;
+  border-style: groove;
+  border: 1px groove #ccc;
+  //box-sizing: border-box;
   resize: vertical;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .LoginSquare{
+  align: center; // olhar isso depois
+  align-self: center;
   text-align: center;
   margin-left: 30px;
   margin-right: 30px;
