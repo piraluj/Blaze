@@ -1,0 +1,135 @@
+body{
+  width: 90%;
+  max width: 800px;
+  margin: auto;
+  font-family: Manjari;
+  line-height: 1.5;
+  background: url(bg.jpg) center;
+  color:white;
+}
+
+main{
+
+  border-radius: 10px;
+  background: #ffffff4d;
+  padding: 40px;
+  margin-top: 40px;
+  margin-left: 300px;
+  margin-right: 300px;
+
+
+}
+
+.quadradoBranco{
+
+  border-radius: 10px;
+  background: #ffffff4d;
+  padding: 40px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+
+}
+
+.men, .nome, .headline, .footer{
+
+  text-align: center;
+  margin: 0;
+
+}
+
+
+
+
+
+
+.LoginSquare{
+  align: center; // olhar isso depois
+  align-self: center;
+  text-align: center;
+  margin-left: 27px;
+  margin-right: 27px;
+  width: 98%;
+
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0;
+  background: #00000099;
+}
+
+
+
+.instabut{
+  width:50px;
+  height:30px;
+}
+
+
+.btn{
+  font-family: Manjari;
+	font-size: 20px;
+  color: #ffffff;
+	padding: 20px 20px;
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#fa4646),
+		to(#ffe70a));
+	background: linear-gradient(
+		top,
+		#ffe70a 0%,
+		#fa4646);
+	border-radius: 20px;
+	border: 0px solid #ffffff;
+  cursor: pointer;
+
+
+}
+
+.btn-efeito{
+  background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ffe70a),
+		to(#fa4646));
+	background: linear-gradient(
+		top,
+		#fa4646 0%,
+		#ffe70a);
+    -webkit-transition: background 1s ease-out;
+    -moz-transition: background 1s ease-out;
+    -o-transition: background 1s ease-out;
+    transition: background 1s ease-out;
+}
+
+.btn-efeito:hover{
+  -webkit-transition: background 1s ease-out;
+    -moz-transition: background 1s ease-out;
+    -o-transition: background 1s ease-out;
+    transition: background 1s ease-out;
+  background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#fa4646),
+		to(#ffe70a));
+	background: linear-gradient(
+		top,
+		#fa4646 0%,
+		#ffe70a);
+}
+
+
+
+.css-input {
+     padding: 13px;
+     font-size: 23px;
+     border-width: 0px;
+     border-color: #ff0000;
+     background-color: #FFFFFF;
+     color: #eb7c2d;
+     border-style: outset;
+     border-radius: 18px;
+     align-self: center;
+     align: center;
+}
+ .css-input:focus {
+     outline:none;
+}
